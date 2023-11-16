@@ -29,8 +29,8 @@ jobs:
           #git merge --no-edit upstream/feature/x
           #git push origin feature/x
 
-          git checkout docs
-          git merge --no-edit upstream/docs
-          git push origin docs
+          git checkout master
+          git merge --no-edit upstream/master
+          git push origin master
 
           # etc
